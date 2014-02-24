@@ -1,0 +1,25 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+body {
+  background: #000 url('../../images/portfolio-bg.png') repeat;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #CFA82E;
+  text-decoration: none;
+
+  &:hover {
+    color: #FFEDB5;
+  }
+}
+
+p { margin: 0; }

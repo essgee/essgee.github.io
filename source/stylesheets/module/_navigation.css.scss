@@ -1,0 +1,10 @@
+.navigation {
+  font-size: 1.5em;
+  margin-top: 2em;
+  text-transform: capitalize;
+  > a { padding-left: 1em; }
+  > a:first-child { padding-left: 0; }
+}
+
+.navigation-main   { float: left;  }
+.navigation-social { float: right; }

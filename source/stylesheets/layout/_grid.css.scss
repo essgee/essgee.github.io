@@ -1,0 +1,21 @@
+.l-constrained {
+  max-width: 1000px;
+  margin:    auto;
+}
+
+.l-constrained-tighter {
+  max-width: 960px;
+}
+
+.l-1-column  { width:  25%; }
+.l-2-columns { width:  50%; }
+.l-3-columns { width:  75%; }
+.l-4-columns { width: 100%; }
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
