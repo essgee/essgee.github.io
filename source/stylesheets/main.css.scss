@@ -1,6 +1,14 @@
+@import "font-awesome";
+
 @import "base";
+
 @import "layout/grid";
-@import "module/image";
-@import "module/navigation";
-@import "module/splash";
+@import "layout/inventory";
+@import "layout/project";
+
+@import "module/header";
+@import "module/banner";
+@import "module/brand";
+@import "module/btn";
+@import "module/responsive";
 @import "module/footer";

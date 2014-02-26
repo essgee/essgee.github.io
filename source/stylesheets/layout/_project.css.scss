@@ -1,0 +1,47 @@
+.l-dark {
+  background-color: #5b5b5b;
+  margin-top: 0.0625em;
+  width: 100%;
+}
+
+.l-header {
+  margin: 0.75em 0;
+}
+
+.l-content {
+  margin: 1em 0;
+  p {
+    font-size: 1.5em;
+    &.indent { margin-left: 1em;  }
+    &.larger { font-size: 2em; }
+    &.tighter {
+      font-size: 1.25em;
+      position: relative;
+      bottom: 0.5em;
+    }
+    &.push-down-1 {
+      position: relative;
+      top: 1em;
+    }
+    &.push-down-2 {
+      position: relative;
+      top: 2em;
+    }
+  }
+}
+
+.l-separator {
+  margin: 1px 0;
+}
+
+.l-separator-pixels-1-row,
+.l-separator-pixels-1-rows {
+  background: #f1f0f0 url('../../../images/essgee-io-layout-pixels-1-row.png') repeat-x;
+  height: 20px;
+}
+
+.l-separator-pixels-2-rows {
+  background: #f1f0f0 url('../../../images/essgee-io-layout-pixels-2-rows.png') repeat-x;
+  height: 41px;
+}
+

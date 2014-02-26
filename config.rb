@@ -1,3 +1,5 @@
+require 'helpers'
+
 ###
 # Middleman Deploy
 ###
@@ -9,6 +11,11 @@ activate :deploy do |deploy|
   deploy.branch   = "master" # default: gh-pages
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
 end
+
+###
+# Font Awesome
+###
+set :fonts_dir,  "fonts-folder"
 
 ###
 # Compass

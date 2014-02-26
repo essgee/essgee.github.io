@@ -18,6 +18,7 @@ end
 
 # Project Gems
 gem "compass"
+gem "font-awesome-middleman"
 gem "haml"
 gem "middleman-deploy"
 gem "sass"

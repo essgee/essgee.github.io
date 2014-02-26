@@ -6,20 +6,30 @@
  }
 
 body {
-  background: #000 url('../../images/portfolio-bg.png') repeat;
-  color: #fff;
-  font-family: sans-serif;
+  background-color: #f1f0f0;
+  color: #143c8c; /* dark blue */
+  font-family: 'Istok Web', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6,
+p {
+  // line-height: 1.4em;
+  margin: 0;
+}
+
+i {
+  font-size: 5em;
+}
+
 a {
-  color: #CFA82E;
+  color: #143c8c;
   text-decoration: none;
 
   &:hover {
-    color: #FFEDB5;
+    color: #50b4e8;
   }
 }
 
-p { margin: 0; }

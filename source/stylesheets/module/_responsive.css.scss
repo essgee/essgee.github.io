@@ -1,0 +1,49 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 326dpi) and (min-width: 320px) {
+// only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+
+.header {
+  > a.brand { font-size: 1.5em; }
+  > a.btn   { font-size: 1.5em; }
+}
+
+.banner {
+  padding: 0.25em 0;
+  h3 {
+    font-size: 1.5em;
+    &.web {
+      color: #50b4e8;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 4.5em;
+      margin-right: 0.0625em;
+      text-align: right;
+      position: relative;
+      right: 0.25em;
+    }    
+    &.design {
+      color: #6bcdc8;      
+      line-height: 0.5em;
+      margin-left: 0.9em;
+      text-align: left;
+      position: relative;
+      right: 0.75em;
+      top: 1.75em;    
+    }
+    &.development {
+      color: #50b4e8;
+      line-height: 0.5em;
+      margin-left: 0.125em;
+      text-align: left;
+      position: relative;
+      right: 0.75em;
+      top: 1.75em;
+    } 
+  }
+}
+
+
+}

@@ -1,0 +1,33 @@
+.banner {
+  padding: 0.25em 0;
+  h3 {
+    font-size: 1.75em;
+    &.web {
+      color: #50b4e8;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 5em;
+      margin-right: 0.0625em;
+      text-align: right;
+      position: relative;
+      right: 0.25em;
+    }    
+    &.design {
+      color: #6bcdc8;      
+      line-height: 0.5em;
+      margin-left: 0.9em;
+      text-align: left;
+      position: relative;
+      right: 0.75em;
+      top: 1.75em;    
+    }
+    &.development {
+      color: #50b4e8;
+      line-height: 0.5em;
+      margin-left: 0.125em;
+      text-align: left;
+      position: relative;
+      right: 0.75em;
+      top: 1.75em;
+    } 
+  }
+}
