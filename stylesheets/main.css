@@ -1881,24 +1881,22 @@ a {
       bottom: 0.5em; }
     /* line 22, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
     .l-content p.push-down-1 {
-      position: relative;
-      top: 1em; }
-    /* line 26, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
+      margin-top: 0.5em; }
+    /* line 25, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
     .l-content p.push-down-2 {
-      position: relative;
-      top: 2em; }
+      margin-top: 0.5em; }
 
-/* line 33, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
+/* line 31, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
 .l-separator {
   margin: 1px 0; }
 
-/* line 38, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
+/* line 36, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
 .l-separator-pixels-1-row,
 .l-separator-pixels-1-rows {
   background: #f1f0f0 url("../../../images/essgee-io-layout-pixels-1-row.png") repeat-x;
   height: 20px; }
 
-/* line 43, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
+/* line 41, /Users/sonnyg/github/essgee.github.io/source/stylesheets/layout/_project.css.scss */
 .l-separator-pixels-2-rows {
   background: #f1f0f0 url("../../../images/essgee-io-layout-pixels-2-rows.png") repeat-x;
   height: 41px; }
@@ -1958,20 +1956,20 @@ a {
   text-decoration: none; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 326dpi) and (min-width: 320px) {
-  /* line 10, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+  /* line 13, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
   .header > a.brand {
     font-size: 1.5em; }
-  /* line 11, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+  /* line 14, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
   .header > a.btn {
     font-size: 1.5em; }
 
-  /* line 14, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+  /* line 17, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
   .banner {
     padding: 0.25em 0; }
-    /* line 16, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+    /* line 19, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
     .banner h3 {
       font-size: 1.5em; }
-      /* line 18, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      /* line 21, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
       .banner h3.web {
         color: #50b4e8;
         font-family: 'Fjalla One', sans-serif;
@@ -1980,7 +1978,7 @@ a {
         text-align: right;
         position: relative;
         right: 0.25em; }
-      /* line 27, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      /* line 30, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
       .banner h3.design {
         color: #6bcdc8;
         line-height: 0.5em;
@@ -1989,7 +1987,7 @@ a {
         position: relative;
         right: 0.75em;
         top: 1.75em; }
-      /* line 36, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      /* line 39, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
       .banner h3.development {
         color: #50b4e8;
         line-height: 0.5em;
@@ -1998,6 +1996,35 @@ a {
         position: relative;
         right: 0.75em;
         top: 1.75em; } }
+/* Retina Display */
+@media only screen and (min-width: 768px) {
+  /* line 57, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+  .l-content {
+    margin: 1em 0; }
+    /* line 59, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+    .l-content i {
+      display: block;
+      padding-left: 100px; }
+    /* line 63, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+    .l-content p {
+      font-size: 2em;
+      padding-left: 150px; }
+      /* line 66, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      .l-content p.indent {
+        margin-left: 1em; }
+      /* line 67, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      .l-content p.larger {
+        font-size: 2.5em; }
+      /* line 68, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      .l-content p.tighter {
+        font-size: 1.25em;
+        position: relative;
+        bottom: 0.5em; }
+      /* line 73, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_responsive.css.scss */
+      .l-content p.smaller {
+        font-size: 1.5em;
+        padding-left: 100px; } }
+/* Tablet */
 /* line 1, /Users/sonnyg/github/essgee.github.io/source/stylesheets/module/_footer.css.scss */
 .footer {
   color: #50b4e8;
